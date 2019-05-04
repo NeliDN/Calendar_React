@@ -28,7 +28,6 @@ Using this Calendar is recommended because is has such advantages:
 It should be mentioned that the Calendar was created based on layouts (you can find them in the folder "Layouts" in this repository). To run the program, you need to download the content of the "Program" folder, install NODE_MODULES, and then run React-app.
 Screenshots of the working program are given below. 
 _____
-
-
 ![Image alt](https://github.com/NeliDN/Calendar_React/blob/master/Screenshots/The%20main%20Layout.PNG)
+_____
 ![Image alt](https://github.com/NeliDN/Calendar_React/blob/master/Screenshots/The%20week%20mode.PNG)
