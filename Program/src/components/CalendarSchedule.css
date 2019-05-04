@@ -1,0 +1,56 @@
+.calendar-schedule {
+  display: flex;
+  flex-direction: column;
+  font-size: 20pt;
+}
+
+.calendar-schedule-days {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.calendar-schedule-day, .calendar-schedule-weekend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+
+  transition-duration: 500ms;
+  width: calc(100% / 7);
+  padding: 0px;
+}
+
+.calendar-schedule-day > span, .calendar-schedule-weekend > span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  width: 80px;
+  height: 60px;
+}
+
+.calendar-schedule-day > span:hover, .calendar-schedule-weekend > span:hover {
+  background: rgba(60, 60, 60, 0.2);
+}
+
+
+.calendar-schedule-weekend > span {
+  color: red;
+}
+
+.point {
+  cursor: pointer;
+  position: absolute;
+  top: -35px;
+  color: red;
+  font-weight: 1000;
+  font-size: 3rem;
+}
+
+.calendar-schedule-with-events {
+  background: #f8b6b6
+}
